@@ -1,0 +1,137 @@
+body {
+    text-align: center;
+    background-image: url("../IMG/fondo.jpg");
+    background-size: cover;
+}
+
+#logo {
+    width: 200px;
+    height: 200px;
+}
+
+/* Importamos el archivo de proyecto en el que se encuentra la fuente para usar */
+@font-face {
+    font-family: "BreakingBad";
+    src: url("CSS/Breaking Bad.ttf") format("truetype");
+}
+
+#textoInicial {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    font-family: "BreakingBad";
+}
+
+#poster {
+    width: 700px;
+    height: 300px;
+    border: 10px;
+    border-style: outset;
+    border-color: brown;
+    border-radius: 22px;
+}
+
+.formulario {
+    width: 50%;
+    margin: auto;
+    padding-top: 50px;
+    background-size: cover;
+}
+
+.formulario table {
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+.fuente {
+    font-family: Helvetica;
+    color: white;
+}
+
+#pagTabla {
+    background-image: none;
+    background-color: #0c3e11;
+    background-size: cover;
+}
+
+.tabla,
+.tabla th,
+.tabla td {
+    width: 50%;
+    height: 60px;
+    margin: auto;
+    background-color: #2b2d23;
+    border-spacing: 10px;
+}
+
+.tabla td {
+    min-width: 80px;
+    vertical-align: top;
+}
+
+.simbolo {
+    font-size: 40px;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: #2b2d23;
+    margin: 0;
+    padding: 0;
+
+}
+
+.descripcion {
+    font-size: 10px;
+    font-family: Helvetica;
+    color: #2b2d23;
+    margin: 0;
+    padding: 0;
+}
+
+.miniatura {
+    width: 80%;
+    padding: 0px;
+}
+
+.tabla .fondo1 {
+    background-color: #b9dc20;
+}
+
+.tabla .fondo2 {
+    background-color: #eff7c7;
+}
+
+.tabla .fondoMixto {
+    background: linear-gradient(to right, #b9dc20 50%, #eff7c7 50%);
+}
+
+.tabla .fondo3 {
+    background-color: #89a220;
+}
+
+.tabla .fondo4 {
+    background-color: #627028;
+}
+
+.tabla .fondo5 {
+    background-color: #c5df5a;
+}
+
+.tabla .fondo6 {
+    background-color: #bcc59d;
+}
+
+.tabla .fondo7 {
+    background-color: #818d53;
+}
+
+.tabla .fondo8 {
+    background-color: #ab8fcc;
+}
+
+.tabla .fondo9 {
+    background-color: #d4e97b;
+}
+
+.tabla .fondo10 {
+    background-color: #c4c628;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="CSS\stylesheet.css">
+    <link rel="shortcut icon" href="IMG\icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="formulario fuente">
+        <form action="mailto:raul.rodriguez@proeducaglobal.com" method="post"
+            name="Breaking Bad - Que comience el juego!">
+
+            <fieldset>
+                <legend>Breaking Bad - Que comience el juego!</legend>
+                <table>
+                    <tr>
+                        <td>Nombre:</td>
+                        <td><input type="text" required></td>
+                    </tr>
+                    <tr>
+                        <td>Apellidos:</td>
+                        <td><input type="text" required></td>
+                    </tr>
+                    <tr>
+                        <td>Sexo:</td>
+                        <td><input type="radio" name="sexo" value="Hombre">Hombre
+                            <input type="radio" name="sexo" value="Mujer">Mujer
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Fecha de nacimiento:</td>
+                        <td><input type="date"></td>
+                    </tr>
+                    <tr>
+                        <td>Dirección postal:</td>
+                        <td><input type="text" placeholder="Calle, número, piso..."></td>
+                    </tr>
+                    <tr>
+                        <td>Código postal:</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Ciudad:</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>DNI:</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Correo electrónico:</td>
+                        <td><input type="email" required></td>
+                    </tr>
+                    <tr>
+                        <td>Selecciona tu personaje:</td>
+                        <td><select name="personaje">
+                                <option value="" selected disabled></option>
+                                <option value="1">Jessie Pinkman</option>
+                                <option value="2">Walter White</option>
+                                <option value="3">Saul Goodman</option>
+                                <option value="4">Gustavo Fring</option>
+                                <option value="5">Pollos hermanos</option>
+                                <option value="6">Otros personajes</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Comentarios:</td>
+                        <td><textarea></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Adjuntar archivos:</td>
+                        <td><input type="file"></td>
+                    </tr>
+                    <tr>
+                        <td class="centrar"><input type="submit" value="Enviar"></td>
+                        <td class="centrar"><input type="reset" value="Borrar"></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
